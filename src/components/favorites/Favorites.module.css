@@ -1,0 +1,45 @@
+.section {
+    padding: 20px 0;
+    background-attachment: fixed;
+}
+
+.wrapCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 30px;
+}
+
+.filter label {
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.filter select {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    color: #0a0a0a;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+@media(max-width: 500px) {
+    .filterItem {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .filter label {
+        margin-bottom: 12px;
+    }
+}

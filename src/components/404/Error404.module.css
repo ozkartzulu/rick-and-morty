@@ -1,0 +1,11 @@
+.section{
+    background-image: linear-gradient(to right, #1e1b4b, #291e5b, #361f6a, #461f79, #581c87);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section h1{
+    color: #fff;
+    font-size: 50px;
+}
